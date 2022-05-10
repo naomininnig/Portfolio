@@ -1,0 +1,7 @@
+.theme-animation {
+  transition: all 20s linear;
+}
+
+.theme-animation:hover {
+  transform: translateY(-100%);
+}
