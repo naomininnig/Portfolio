@@ -36,9 +36,8 @@ function App() {
         buttonText="Ok Great!"
         expires={150}
       >
-        We use cookies on this site to enhance your user experience. For a
-        complete overview of all cookies used, please see our{" "}
-        <a href="/privacy">Cookie policy.</a>
+        This website uses cookies to ensure you get the best experience on the
+        website
       </CookieConsent>
     </>
   );

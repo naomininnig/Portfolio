@@ -100,6 +100,7 @@ const Button = styled.button`
   border-radius: 8px;
   font-weight: 500;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 const Contact = () => {
