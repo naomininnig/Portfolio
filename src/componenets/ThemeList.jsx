@@ -51,8 +51,8 @@ const ThemeList = () => {
       <Texsts>
         <H1>Create & Inspire</H1>
         <P>
-          I Create beautifull & succssesfull websites, fully responsive and up
-          to the newest Technology trends.
+          I Create beautiful & successful websites & stay up to date with the
+          newest trends in technology.
         </P>
       </Texsts>
       <List>

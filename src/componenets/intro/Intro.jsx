@@ -97,27 +97,27 @@ const Desc = styled.div`
   ${tablet({ fontSize: "20px" })}
 `;
 
-const Button = styled.button`
-  color: #a47ca6;
-  border: #a47ca6 solid 2px;
-  border-radius: 8px;
-  margin: 10px 0px;
-  padding: 5px;
-  display: inline-block;
-  width: 30%;
-  padding: 10px;
-  font-size: 20px;
-  background-color: transparent;
-  cursor: pointer;
-  ${mobileM({ fontSize: "18px", padding: "3px", width: "25%" })}
-  ${mobileS({ fontSize: "16px", padding: "3px", width: "40%" })}
-  ${tablet({
-    fontSize: "18px",
-    padding: "1px",
-    width: "50%",
-    marginBottom: "40px",
-  })}
-`;
+// const Button = styled.button`
+//   color: #a47ca6;
+//   border: #a47ca6 solid 2px;
+//   border-radius: 8px;
+//   margin: 10px 0px;
+//   padding: 5px;
+//   display: inline-block;
+//   width: 30%;
+//   padding: 10px;
+//   font-size: 20px;
+//   background-color: transparent;
+//   cursor: pointer;
+//   ${mobileM({ fontSize: "18px", padding: "3px", width: "25%" })}
+//   ${mobileS({ fontSize: "16px", padding: "3px", width: "40%" })}
+//   ${tablet({
+//     fontSize: "18px",
+//     padding: "1px",
+//     width: "50%",
+//     marginBottom: "40px",
+//   })}
+// `;
 /////////////////////////////////////////
 
 const Right = styled.div`
@@ -132,13 +132,13 @@ const Image = styled.img`
   object-fit: cover;
   text-align: center;
 
-  ${mobileM({ alignItems: "center" })}
-  ${mobileS({ alignItems: "center" })}
+  ${mobileM({ alignItems: "center", width: "100%" })}
+  ${mobileS({ alignItems: "center", width: "100%" })}
   ${tablet({
     alignItems: "center",
     paddingTop: "0px",
     // paddingLeft: "120PX",
-    width: "200ox",
+    width: "100%",
     height: "250px",
   })}
   ${lscreen({
@@ -155,7 +155,7 @@ const Intro = () => {
     <Container>
       <Left>
         <LeftWrapper>
-          <H2>Hello,My name is</H2>
+          <H2>Hello, my name is</H2>
           <H1>Naomi Ninnig</H1>
           <Title>
             <TitleWrapper className="title-wrapper">
@@ -167,9 +167,8 @@ const Intro = () => {
             </TitleWrapper>
           </Title>
           <Desc>
-            I develop and design websites with care for the small details,
-            specializing in creating stylish, modern, web services & online
-            shops.
+            I develop & design websites with care for the small details. My
+            specialty is creating stylish, modern web services & online shops.
           </Desc>
           {/* <Button>
             {' '}

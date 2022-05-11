@@ -30,7 +30,7 @@ const Right = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  ${tablet({ paddingRight: "50px" })}
+  ${tablet({ paddingRight: "50px", paddingLeft: "40px" })}
 `;
 
 const Title = styled.h1`
@@ -63,8 +63,8 @@ const Support = () => {
       <Right>
         <Title>Let me help you!</Title>
         <Desc>
-          proffesional support 24/7 ! <br></br> I would love to help you get
-          your dreams into your website! contact me & i will do the rest!
+          Professional support 24/7 ! <br></br> I would love to help you turn
+          your dreams into reality. Contact me & i will do the rest!
         </Desc>
       </Right>
     </Container>

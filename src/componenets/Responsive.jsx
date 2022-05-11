@@ -58,8 +58,9 @@ const Responsive = () => {
       <Right>
         <Title>Responsive Design</Title>
         <Desc>
-          All of my websites are fully responsive. makes it easier for you to
-          sell through your website, social media and online marketplaces.
+          My websites look good on every device. The fully responsive design
+          makes it easy for you to sell your products & services through your
+          website, social media & online marketplaces.
         </Desc>
       </Right>
     </Container>

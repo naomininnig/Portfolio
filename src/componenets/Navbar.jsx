@@ -5,7 +5,6 @@ import { mobileS } from "../responsive";
 import { mobileM } from "../responsive";
 import { tablet } from "../responsive";
 import { ThemeContext } from "../context";
-import Toggle from "./Toggle";
 import React, { useContext } from "react";
 
 const Container = styled.div`

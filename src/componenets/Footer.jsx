@@ -1,13 +1,10 @@
 import {
   EmailOutlined,
-  Facebook,
   GitHub,
   Instagram,
   LinkedIn,
   Phone,
-  Pinterest,
   Room,
-  Twitter,
 } from "@material-ui/icons";
 
 import styled from "styled-components";
@@ -63,27 +60,27 @@ padding:15px;
 border-top: 1px solid rgba(204, 24, 87, 1);
 
 `;
-const Center = styled.div`
-  flex: 1;
-  padding: 20px;
-`;
+// const Center = styled.div`
+//   flex: 1;
+//   padding: 20px;
+// `;
 const Title = styled.h3`
   margin-bottom: 30px;
 `;
 
-const List = styled.ul`
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-`;
+// const List = styled.ul`
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   display: flex;
+//   flex-direction: column;
+// `;
 
-const ListItem = styled.li`
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-`;
+// const ListItem = styled.li`
+//   margin-bottom: 10px;
+//   display: flex;
+//   align-items: center;
+// `;
 
 const Right = styled.div`
   flex: 1;
@@ -109,8 +106,8 @@ const Footer = () => {
         <Left>
           <Logo src={process.env.PUBLIC_URL + "/images/NN (7).png"}></Logo>
           <Desc>
-            My passion is builduing websites, learning new technologies & making
-            dreams come true for my clients! Coding is a true passion.
+            My passion are builduing websites, learning new technologies &
+            making dreams come true for my clients! I love to code!
           </Desc>
           <SocialContainer>
             <a

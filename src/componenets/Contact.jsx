@@ -151,7 +151,7 @@ const Contact = () => {
         </Left>
         <Right>
           <DescP>
-            <b>How can i help you ?</b> I am here for you 24/7, Get in touch!{" "}
+            <b>How can i help you ?</b> I am here for you 24/7, get in touch!{" "}
           </DescP>
           <Form ref={formRef} onSubmit={handleSubmit}>
             <Input type="text" placeholder="Name" name="user_name" />
